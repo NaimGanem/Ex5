@@ -1,0 +1,20 @@
+{    
+    "Bookcategory": [  
+        {  
+            "id": 1,
+            "category": "Ninja"
+        },  
+        {  
+            "id": 2,
+            "category": "Action"
+        },  
+        {  
+            "id": 3,
+            "category": "Pairets"
+        } , 
+        {  
+            "id": 4,
+            "category": "Magic"
+        }  
+    ]  
+}
