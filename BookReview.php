@@ -58,6 +58,6 @@ mysqli_close($connection);
     <title>Document</title>
 </head>
 <body>
-<script src="incldues/getbookslist.js"></script>
+<script src="incldues/booklistReview.js"></script>
 </body>
 </html>
