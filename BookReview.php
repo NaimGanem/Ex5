@@ -34,6 +34,7 @@ if (isset($_GET['bookId'])) {
             echo '<h3>' . $bookName . ' - $' . $bookPrice . '</h3>';
             echo '<p>Category: ' . $category . '</p>';
             echo '<img src="' . $bookImageUrl . '" alt="Book Cover">';
+            echo '<img src="' . $bookImageUrl2 . '" alt="Book Cover">';
            
             echo '<p>' . $bookDescription . '</p>';
             echo '</div>';
@@ -46,4 +47,7 @@ if (isset($_GET['bookId'])) {
 } else {
     echo 'Invalid bookId';
 }
+?>
+<?php
+mysqli_close($connection);
 ?>

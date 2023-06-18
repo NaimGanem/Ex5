@@ -35,7 +35,6 @@ include "config.php";
             echo '<a href="BookReview.php?bookId=' . $bookId . '">';
             echo '<h3>' . $bookName . ' - $' . $bookPrice . '</h3>';
             echo '<img src="' . $bookImageUrl . '" alt="Book Cover">';
-            echo '<img src="' . $bookImageUrl2 . '" alt="Book Cover">';
             echo '</a>';
             echo '</div>';
         }
@@ -44,3 +43,6 @@ include "config.php";
     <script src="incldues/getbookslist.js"></script>
 </body>
 </html>
+<?php
+mysqli_close($connection);
+?>
