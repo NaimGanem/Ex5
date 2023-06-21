@@ -16,9 +16,6 @@ if (isset($_GET['bookId'])) {
         }
     }
 
-    $query = "SELECT * FROM tbl_24_books WHERE id = '$bookId'";
-    $result = mysqli_query($connection, $query);
-
 } else {
     echo 'Invalid bookId';
 }
@@ -37,6 +34,8 @@ if (isset($_GET['bookId'])) {
 </head>
 <body>
     <?php
+    $query = "SELECT * FROM tbl_24_books WHERE id = '$bookId'";
+    $result = mysqli_query($connection, $query);
     if ($result) {
         if (mysqli_num_rows($result) > 0) {
             $row = mysqli_fetch_assoc($result);
