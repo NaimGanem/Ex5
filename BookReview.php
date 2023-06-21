@@ -61,7 +61,6 @@ if (isset($_GET['bookId'])) {
         echo 'Error executing the query: ' . mysqli_error($connection);
     }
     ?>
-<script src="incldues/booklistReview.js"></script>
 </body>
 </html>
 <?php
