@@ -3,7 +3,8 @@
   const bookList = document.getElementById('dataServices');
 
   
-  categoryDropdown.addEventListener('change', function() {
+  categoryDropdown.addEventListener('change', function() 
+  {
       const selectedCategory = categoryDropdown.value;
       filterBooks(selectedCategory);
   });
