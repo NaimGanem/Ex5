@@ -23,9 +23,6 @@ if (isset($_GET['bookId'])) {
     echo 'Invalid bookId';
 }
 ?>
-<?php
-mysqli_close($connection);
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,3 +65,6 @@ mysqli_close($connection);
 <script src="incldues/booklistReview.js"></script>
 </body>
 </html>
+<?php
+mysqli_close($connection);
+?>
